@@ -11,7 +11,7 @@ abstract class Programmer implements Employee {
     }
 }
 
-class BackEndProgrammer extends Programmer {
+class BackEndProgrammer extends Programmer{
     private final String name;
     public BackEndProgrammer(String name) {
         this.name = name;
